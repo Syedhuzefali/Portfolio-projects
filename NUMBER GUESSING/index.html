@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>number guessing</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div>
+                <h1 class="heading">GUESS THE NUMBER</h1>
+            </div>
+            <div class="heading2">
+                <label for="">Choose Any Number Between(0-100)</label>
+            </div>
+            <div>
+                <input type="nunmber" class="inp" id="digit" placeholder="Enter the number here">
+            </div>
+        </div>
+        <div class="row">
+            <div>
+                <button class="btn" onclick="datacheck()">Submit</button>
+                <button class="btn" onclick="datareset()">Reset</button>
+            </div>
+        </div>
+        <div class="display">
+            <label for="" id="display"></label>
+        </div>
+
+
+
+    </div>
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,91 @@
+body{
+    align-content: center;
+    align-items: center;
+    background-color: lightseagreen;
+}
+.maindiv{
+     margin: 10px 0px 0px 180px;
+    display: flex;
+    
+}
+
+.div1{
+ 
+    margin: 10px 100px 10px 10px;
+}
+
+.div2{
+
+    margin: 10px 10px 10px 100px;
+}
+.div3{
+    font-size: xx-large;
+    padding: 10px ;
+    
+
+    
+    
+    margin: 10px 10px 10px 500px;
+}
+
+.table{
+    height: 200px;
+    width: 250px;
+    border: 5px solid
+    
+}
+
+.rolldice1{
+    font-style: italic;
+    font-size: large;
+    
+    height: 30px;
+    width: 200px;
+    margin: 10px 0px 0px 80px;
+
+}
+.rolldice1:hover{
+    background: aqua;
+}
+
+.rolldice2{
+    font-style: italic;
+    font-size: large;
+    
+    height: 30px;
+    width: 200px;
+    margin: 10px 0px 0px 90px;
+}
+
+.rolldice2:hover{
+    background: aqua;
+}
+
+h1{
+    margin: 10px 10px 10px 130px;
+}
+
+.startbtn{
+    margin: 50px 100px 10px 20px;
+    background: green;
+    
+}
+
+.resetbtn{
+    margin: 10px 10px 10px 10px;
+    background: red;
+}
+#start{
+    background: green;
+}
+.div4{
+    margin: 0px 0px;
+}
+
+.div5{
+    margin: 10px 10px 10px 10px;
+}
+input{
+    font-size:20px;
+    margin-right:500px;
+}

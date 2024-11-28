@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tip calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body bgcolor="black">
+    <div class="heading">
+        <h2>TIP CALCULATOR</h2>
+    </div>
+<div class="maindiv">
+<div class="container">
+<div>  
+    <div class="row">
+        <label for="">Bill Amount</label>
+    </div>
+    <div class="row">
+        <input type="number" class="inp" id="amount" placeholder=" Enter Amount to be paid"> 
+    </div>
+</div> 
+<div>
+    <div class="row">
+        <label for="">How was the service?</label>
+    </div>
+    <div class="row">
+        <select name="service" id="service" class="inp"  placeholder="select">
+            <option value="0"></option>
+            <option value="0.25">25%-top noch</option>
+            <option value="0.20">20%-excellent</option>
+            <option value="0.15">15%-good</option>
+            <option value="0.10">10%-bad</option>
+            <option value="0.05">5%-poor</option>
+        </select>
+    </div>
+</div>
+<div>
+    <div class="row">
+        <label for="">Total number of persons</label>
+    </div>
+    <div class="row">
+        <input type="text" id="persons" class="inp" placeholder="number of people sharing the bill">
+    </div>
+</div>
+<div>
+    <div class="row">
+        <button class="calculatebtn" onclick="datasubmit('=')">calculate</button>
+    </div>
+</div>
+<div id="display">
+        <label for="" id="answer" ></label>
+</div>
+
+
+
+
+
+
+
+
+</div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
